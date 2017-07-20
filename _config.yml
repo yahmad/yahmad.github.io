@@ -25,8 +25,7 @@ github_username:  yahmad
 
 # Build settings
 markdown: kramdown
-# theme: minima
-theme: jekyll-theme-awesome
+theme: minima
 
 plugins:
   - jekyll-feed
