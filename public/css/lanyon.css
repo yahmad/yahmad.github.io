@@ -207,7 +207,7 @@ a.sidebar-nav-item:focus {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-}
+} 
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
