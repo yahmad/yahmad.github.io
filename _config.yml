@@ -25,18 +25,20 @@ github_username:  yahmad
 
 # Build settings
 markdown: kramdown
-
 theme: minima
-# theme: jekyll-theme-primer
-
-gems:
+plugins:
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-gist
+# - jekyll-paginate
+# - jekyll-gist
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
-
-
-# Custom vars
-version: 1.0.0
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
