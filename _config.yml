@@ -14,24 +14,50 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Yasir Ahmad
-email: your-email@domain.com
+tagline: 'aka the Witty Fox'
+email: yasir@yahmad.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Opinions on software, tech, and the future.
+baseurl: / # the subpath of your site, e.g. /blog
+url: "https://yahmad.com" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: yzahmad
+# github_username:  yahmad
 
 # Build settings
 markdown: kramdown
-
+highlighter: pygments # From Hyde
 theme: minima
-# theme: jekyll-theme-primer
 
-gems:
+plugins:
   - jekyll-feed
+  - jekyll-gist
+# - jekyll-paginate
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+# About/contact
+author:
+  name:              Yasir Ahmad
+  twitter:           https://twitter.com/yzahmad
+  email:             yasir@yahmad.com
+
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/yahmad
+
