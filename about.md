@@ -4,7 +4,10 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  I am a software developer living in Edinburgh, Scotland.  
+<br>
+<br>
+    If you are interested in more about me, I have put some past details below - but to be honest, chatting to me or having a look at my latest posts/projects is probably more informative.
 </p>
 
 In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
