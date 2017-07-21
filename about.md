@@ -3,31 +3,39 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  I am a software developer living in Edinburgh, Scotland.  
-<br>
-<br>
-    If you are interested in more about me, I have put some past details below - but to be honest, chatting to me or having a look at my latest posts/projects is probably more informative.
-</p>
+My name is **Yasir Ahmad**.  
+I am a software developer living in **Edinburgh, Scotland**.  
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+If you are interested in more about me, I have put some past details below - but to be honest, chatting to me 
+or having a look at my latest posts/projects is probably more informative.
 
-There are currently two themes built on Poole:
+---
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## Currently
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I am a founding (and the lead iOS) engineer at a startup called [Yavi](http://yaviapp.com), in Edinburgh. We are making a platform
+for desk-free workers to improve their work lives through better communications. 
 
-## Setup
+As we are a relatively small team, I get to work all over our stack, from the back-end in Java, 
+front-end sites and internal tools using Angular and TypeScript - and of course the mobile apps!
 
-Some fun facts about the setup of this project include:
+It has been and continues to be a great learning experience, and I am working with some really talented people. 
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+---
+## Previous work
+Following university, I have been working mainly in the mobile sector for the past 6+ years.  
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+I have created both iOS and Android apps, working on phone, tablet and occasionally desktop apps through the use of native and cross-platform tools. 
 
-Thanks for reading!
+Clients have included government contracts, NPOs, airlines, as well as well-known tech companies and banks.
+
+---
+
+## Education
+I studied Applied Computing at the University of Dundee, achieving a 1st BSc (with Hons).  
+
+---
+## Hobbies
+My main pastime - when not coding at work - is coding at home. 😅  
+I like reading both fiction and non-fiction books, and occasionally play tennis in the summer.
+Oh, I also have a network of fiercely competitive board-gaming friends. Who needs consoles?   
