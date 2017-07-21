@@ -20,9 +20,9 @@ gem "minima", "~> 2.0" # Removing because we will use local theme, rather than g
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-gist", "~> 1.4.1"
-   gem 'pygments.rb', '~> 1.1', '>= 1.1.2'
+    gem "jekyll-feed", "~> 0.6"
+    gem "jekyll-gist", "~> 1.4.1"
+    gem 'rouge', '~> 1.10', '>= 1.10.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
