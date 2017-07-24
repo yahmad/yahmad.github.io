@@ -1,4 +1,11 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://yahmad.com/"
+languageCode = "en-gb"
+title = "Yasir Ahmad"
+
+
 theme = "hyde"
+
+[params]
+  disqusShortname = "yahmad"
+  # themeColor = "theme-base-10"
+  layoutReverse = false
