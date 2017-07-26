@@ -9,7 +9,7 @@
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
-                    <a font-weight="bold" class="link" href="https://medium.com/@ya">Blog</a>
+                    <a font-weight="bold" class="link" href="https://medium.com/@ya" target="_blank">Blog</a>
                     <!-- <a class="link" href="{{ site.url }}/blog">Blog</a> -->
                 </li>
             {% endif %}
@@ -33,7 +33,7 @@
 
         {% if site.resume == true %}
             <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
+                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}" target="_blank">Résumé</a>
             </li>
         {% endif %}
     </ul>
