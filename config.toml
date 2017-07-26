@@ -1,11 +1,47 @@
-baseURL = "https://yahmad.com/"
-languageCode = "en-gb"
 title = "Yasir Ahmad"
+baseURL = "https://yahmad.com"
+tags = ["developer", "blog", "ios", "portfolio"]
+languageCode = "en-gb"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "yahmad"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
+[Params]
+    tagline = "History of my keyboard"
+    author = "Yasir Ahmad"
+    description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
+    logoBig = "/images/ya-logo.png"
+    logoSmall = "/images/ya-logo.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    twitter = "yzahmad"
+    linkedin = "yasiramd"
+    github = "yahmad"
+    email = "yasir@yahmad.com"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = true
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
 
-theme = "hyde"
-
-[params]
-  disqusShortname = "yahmad"
-  # themeColor = "theme-base-10"
-  layoutReverse = false
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
