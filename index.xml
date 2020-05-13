@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yasir Ahmad</title>
-    <link>https://yahmad.github.io/</link>
+    <link>https://yahmad.com/</link>
     <description>Yasir Ahmad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 May 2020 21:49:45 +0100</lastBuildDate>
     
-    <atom:link href="https://yahmad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yahmad.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CNAMEs and dig</title>
-      <link>https://yahmad.github.io/posts/cname-digs/</link>
+      <link>https://yahmad.com/posts/cname-digs/</link>
       <pubDate>Wed, 13 May 2020 02:03:59 +0100</pubDate>
       
-      <guid>https://yahmad.github.io/posts/cname-digs/</guid>
+      <guid>https://yahmad.com/posts/cname-digs/</guid>
       <description>&lt;h2 id=&#34;cname-flattening&#34;&gt;CNAME Flattening&lt;/h2&gt;
 &lt;p&gt;I learned about &lt;a href=&#34;https://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root/&#34;&gt;CNAME flattening&lt;/a&gt;  on Cloudflare:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt; you don&amp;rsquo;t need to use A records for the apex/root domain on Cloudflare. Can use a CNAME, as you would for subdomains (e.g. www).&lt;/p&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Moving to Hugo</title>
-      <link>https://yahmad.github.io/posts/hello-world/</link>
+      <link>https://yahmad.com/posts/hello-world/</link>
       <pubDate>Wed, 13 May 2020 00:51:11 +0100</pubDate>
       
-      <guid>https://yahmad.github.io/posts/hello-world/</guid>
+      <guid>https://yahmad.com/posts/hello-world/</guid>
       <description>&lt;p&gt;Well, here we go again.&lt;/p&gt;
 &lt;p&gt;My site has been a landing page for the past couple years. I kept intending to write blog posts, but would get sidetracked by the implementation details.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -62,10 +62,10 @@
     
     <item>
       <title>About</title>
-      <link>https://yahmad.github.io/about/</link>
+      <link>https://yahmad.com/about/</link>
       <pubDate>Sun, 03 May 2020 21:49:45 +0100</pubDate>
       
-      <guid>https://yahmad.github.io/about/</guid>
+      <guid>https://yahmad.com/about/</guid>
       <description>&lt;p&gt;Attempt number &lt;strong&gt;132942&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Owner has given up on writing an About Page for the &lt;em&gt;nth&lt;/em&gt; time.&lt;/p&gt;
 &lt;p&gt;Perhaps this site is the one.&lt;/p&gt;
