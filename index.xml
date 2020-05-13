@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yasir Ahmad</title>
+    <link>https://example.com/</link>
+    <description>Yasir Ahmad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 May 2020 21:49:45 +0100</lastBuildDate>
+    
+    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CNAMEs and dig</title>
+      <link>https://example.com/posts/cname-digs/</link>
+      <pubDate>Wed, 13 May 2020 02:03:59 +0100</pubDate>
+      
+      <guid>https://example.com/posts/cname-digs/</guid>
+      <description>&lt;h2 id=&#34;cname-flattening&#34;&gt;CNAME Flattening&lt;/h2&gt;
+&lt;p&gt;I learned about &lt;a href=&#34;https://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root/&#34;&gt;CNAME flattening&lt;/a&gt;  on Cloudflare:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;tl;dr&lt;/strong&gt; you don&amp;rsquo;t need to use A records for the apex/root domain on Cloudflare. Can use a CNAME, as you would for subdomains (e.g. www).&lt;/p&gt;
+&lt;p&gt;Using a CNAME for the apex domain means I don&amp;rsquo;t have to specify the IP address. Neat.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Wow, does Cloudflare have a lot of features these days. No wonder people burn out, another thing I &lt;em&gt;want&lt;/em&gt; to learn&amp;hellip; but is probably a distraction atm.)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;man-dig&#34;&gt;man dig&lt;/h2&gt;
+&lt;p&gt;Want to perform a site DNS lookup in terminal?&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;dig yahmad.com [+noall +answer]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;+noall to clear the display flags (don&amp;rsquo;t show anything, too much info)&lt;/li&gt;
+&lt;li&gt;+answer to re-enable the answer flag (the data we care about)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Moving to Hugo</title>
+      <link>https://example.com/posts/hello-world/</link>
+      <pubDate>Wed, 13 May 2020 00:51:11 +0100</pubDate>
+      
+      <guid>https://example.com/posts/hello-world/</guid>
+      <description>&lt;p&gt;Well, here we go again.&lt;/p&gt;
+&lt;p&gt;My site has been a landing page for the past couple years. I kept intending to write blog posts, but would get sidetracked by the implementation details.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is that the best font?&lt;/p&gt;
+&lt;p&gt;I should tweak the mobile layout.&lt;/p&gt;
+&lt;p&gt;Beige or white background&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Screw that.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Using a minimal template&lt;/li&gt;
+&lt;li&gt;Start writing&lt;/li&gt;
+&lt;li&gt;Figure it out&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;note-to-self&#34;&gt;Note to self&lt;/h4&gt;
+&lt;p&gt;I should really document my site deployment details.  Half-baked sites on Netlify, Heroku? and probably Firebase Hosting. Took me a while finding the real one.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Gah, I don&amp;rsquo;t like the padding around line breaks, and the timestamp&amp;hellip; &lt;strong&gt;Ignore it!&lt;/strong&gt; 💦&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Sun, 03 May 2020 21:49:45 +0100</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>&lt;p&gt;Attempt number &lt;strong&gt;132942&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Owner has given up on writing an About Page for the &lt;em&gt;nth&lt;/em&gt; time.&lt;/p&gt;
+&lt;p&gt;Perhaps this site is the one.&lt;/p&gt;
+&lt;p&gt;Perhaps.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>CNAMEs and dig  - Yasir Ahmad</title>
+<meta name="description" content="Blogging about anything I learn about. Mainly because my brain is a sieve.">
+
+<link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://example.com/favicon.png">
+
+<link rel="stylesheet" href="https://example.com/css/style.css?rnd=1589334197" />
+
+
+
+<meta property="og:title" content="CNAMEs and dig" />
+<meta property="og:description" content="Revisiting CloudFlare DNS settings and using the dig CLI tool" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/posts/cname-digs/" />
+<meta property="article:published_time" content="2020-05-13T02:03:59+01:00" />
+<meta property="article:modified_time" content="2020-05-13T02:03:59+01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CNAMEs and dig"/>
+<meta name="twitter:description" content="Revisiting CloudFlare DNS settings and using the dig CLI tool"/>
+
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="https://example.com">Yasir Ahmad</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="/about/" title="">About</a>
+    
+    <a class="" href="/tags/" title="">Tags</a>
+    
+    <a class="" href="/posts/" title="">Archive</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1>CNAMEs and dig</h1>
+        </header>
+        <div class="content">
+            <h2 id="cname-flattening">CNAME Flattening</h2>
+<p>I learned about <a href="https://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root/">CNAME flattening</a>  on Cloudflare:</p>
+<p><strong>tl;dr</strong> you don&rsquo;t need to use A records for the apex/root domain on Cloudflare. Can use a CNAME, as you would for subdomains (e.g. www).</p>
+<p>Using a CNAME for the apex domain means I don&rsquo;t have to specify the IP address. Neat.</p>
+<p><em>(Wow, does Cloudflare have a lot of features these days. No wonder people burn out, another thing I <em>want</em> to learn&hellip; but is probably a distraction atm.)</em></p>
+<p> </p>
+<hr>
+<h2 id="man-dig">man dig</h2>
+<p>Want to perform a site DNS lookup in terminal?</p>
+<pre><code>dig yahmad.com [+noall +answer]
+</code></pre>
+<ul>
+<li>+noall to clear the display flags (don&rsquo;t show anything, too much info)</li>
+<li>+answer to re-enable the answer flag (the data we care about)</li>
+</ul>
+
+        </div>
+        <div class="article-info">
+    
+        <div class="article-date">2020-05-13</div>
+    
+    <div class="article-taxonomies">
+        
+            
+    </div>
+</div>
+
+    </article>
+    
+
+
+        </main>
+        <footer>
+            
+                <p>© Yasir Ahmad, 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>
